@@ -11,12 +11,26 @@ function App() {
   // let counter = 5
 
   let addValue = ()=>{
-    (counter<20)?setCounter(counter+1):setCounter(counter) //assignment
+    /*setCounter(counter+1)
+    setCounter(counter+1)         //Interview question
+    setCounter(counter+1)
+    setCounter(counter+1)*/
+
+
+    /*setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)                    //Interview question
+    setCounter(prevCounter=>prevCounter+1)
+    setCounter(prevCounter=>prevCounter+1)*/
+
+
+
+    // (counter<20)?setCounter(counter+1):setCounter(counter) //assignment restructing upper limit to 20
     // setCounter(counter+1)
   }
 
   let removeValue = ()=>{
-    (counter>0)?setCounter(counter-1):setCounter(counter)
+
+    (counter>0)?setCounter(counter-1):setCounter(counter) // restructing lower limit to 0
     // setCounter(counter-1)
   }
 
